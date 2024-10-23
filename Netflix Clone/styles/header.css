@@ -1,0 +1,193 @@
+.header{
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+    height: 80px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 20px 0 0 40px ;
+    justify-content: space-between;
+
+}
+
+
+
+
+.left{
+flex: 1;
+height: 50px;
+margin-bottom: 10px;
+
+}
+
+
+.left img{
+
+    min-height: 35px;
+    min-width: 90px;
+    max-width: 150px;
+    max-height: 50px;
+height: auto;
+width: 100%;
+
+}
+
+.mid{
+    flex: 5;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 10px;
+
+}
+
+.nav{
+    color: white;
+    font-size: 14px;
+    padding: 0 10px 0 10px;
+}
+
+.right{
+    flex: auto;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.right button{
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+    height: 30px;
+    width:80px;
+
+
+}
+
+.right button:hover{
+    background-color: maroon;
+}
+
+.right select{
+    height: 30px;
+    width: auto;
+    padding: 0 10px 0 10px;
+    font-size: 14px;
+    color: white;
+    background-color: transparent;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.right select:focus{
+    border: 2px solid white;
+}
+
+.right select option{
+    background-color: white;
+    color: black;
+}
+
+
+.center{
+
+    display: flex;
+    flex: 1;
+    position: fixed;
+    z-index: 100;
+    height: 130vh;
+    width: 100%;
+    align-items: center;
+    color: white;
+    justify-content: center;
+
+
+}
+
+.hero__card {
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .hero__title {
+    font-weight: 800;
+    font-size: 2em;
+  }
+  
+  .hero__subtitle,
+  .hero__description {
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  
+  .hero__description {
+    margin: 0 45px;
+  }
+  
+  .email__input {
+    border: none;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    padding-left: 7px;
+  }
+  .email__label {
+    color: black;
+    position: absolute;
+    top: 28%;
+    left: 2%;
+    color: rgb(153, 149, 149);
+    transition: 0.5s;
+  }
+  
+  .email__form__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .form__container {
+    background-color: white;
+    width: 90%;
+    height: 50px;
+    position: relative;
+  }
+  
+  .email__input:focus + .email__label {
+    top: 0.2rem;
+    font-size: 10px;
+  }
+  
+  .email__input:not(:placeholder-shown).email__input:not(:focus) + .email__label {
+    top: 0.2rem;
+    font-size: 10px;
+  }
+  
+  .email__input:focus-visible {
+    outline: none;
+  }
+  
+  .primary__button {
+    background-color: #dc030f;
+    border: 1px solid #dc030f;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    border-radius: 2px;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+
+
+
+  
